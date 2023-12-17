@@ -36,8 +36,8 @@ const Nav = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <nav className={`fixed w-full ${isSticky ? "bg-white shadow-md" : ""}`}>
+    <div className="sticky top-0">
+      <nav className={`${isSticky ? "bg-white shadow-md" : ""}`}>
         <div className="max-w-7xl mx-auto py-2 px-4 sm:px-6 lg:px-[17rem]">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
