@@ -2,7 +2,7 @@ import React from 'react';
 import List from "../components/List";
 import Hero from "../assets/hero.svg";
 
-const Hero2 = () => {
+const Hero = () => {
   return (
     <div>
       <div className="flex flex-wrap justify-evenly items-center bg-[#2F3045] h-50v w-screen">
@@ -28,4 +28,4 @@ const Hero2 = () => {
   )
 }
 
-export default Hero2
+export default Hero

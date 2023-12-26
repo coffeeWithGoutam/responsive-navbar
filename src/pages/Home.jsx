@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero2 from '../components/Hero2'
+import Hero from '../components/Hero'
 import Logo from "../components/Logo";
 import Card from "../components/Card";
 import HomeProfileCard from "../components/HomeProfileCard";
@@ -13,7 +13,7 @@ import ServicesCard from "../components/ServicesCard";
 const Home = () => {
   return (
     <>
-      <Hero2 />
+      <Hero />
       <Logo />
       <div className="h-[18rem] mt-8 mb-[15rem] w-screen bg-[#E9FEFF] text-center">
         <h1 className="text-[#2F3045] text-[2rem] pt-6 font-semibold">
