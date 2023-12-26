@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const ImageCard = ({ imageUrl, altText }) => {
   return (
-    <div className="rounded-lg overflow-hidden w-[35rem] h-[26rem]">
+    <div className="rounded-lg">
       <img
         src={imageUrl}
         alt={altText}

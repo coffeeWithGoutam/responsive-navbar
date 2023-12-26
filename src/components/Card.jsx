@@ -4,7 +4,9 @@ import avatarImage from '../assets/avatar.svg';
 
 const Card = () => {
   return (
-    <div className="relative bg-white p-3 rounded-md shadow-md h-[32rem] w-[23rem]">
+
+    <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-5">
+    <div className="relative bg-white p-3 rounded-md shadow-md">
       <img src={cardImage} alt="Card" className="w-full h-[17rem] object-cover mb-4 rounded-md" />
       {/* Badge */}
       <div className="absolute bottom-[13.5rem] left-6 bg-[#1D7EB9] text-white font-semibold text-center px-2 py-1 w-[6rem] rounded-full">
@@ -17,6 +19,7 @@ const Card = () => {
         <img src={avatarImage} alt="Avatar" className="w-8 h-8 rounded-full mt-4" />
         <h1 className='mt-5 text-[#1D7EB9] font-normal'>Lorim Isuacob  | 15 Nov 2021</h1>
       </div>
+    </div>
     </div>
   );
 };
