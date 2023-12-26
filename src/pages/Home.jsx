@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../components/Hero'
+import Hero from '../components/Hero2.jsx'
 import Logo from "../components/Logo";
 import Card from "../components/Card";
 import HomeProfileCard from "../components/HomeProfileCard";
@@ -15,7 +15,7 @@ const Home = () => {
     <>
       <Hero />
       <Logo />
-      <div className="h-[18rem] mt-8 mb-[15rem] w-screen bg-[#E9FEFF] text-center">
+      <div className="h-[18rem] container  mx-auto mt-8 mb-[15rem]  bg-[#E9FEFF] text-center">
         <h1 className="text-[#2F3045] text-[2rem] pt-6 font-semibold">
           We are creating App Startups, not just Apps.
           <br />
@@ -99,10 +99,17 @@ const Home = () => {
         </div>
       </div>
       {/* School Card Section */}
-      <div className="mt-20 w-screen bg-[#E9FEFF] h-[40rem] justify-center items-center text-center">
-        <p className="pt-10 text-[#1D7EB9] font-semibold">SERVICES</p>
+      <div className="mt-20 bg-[#E9FEFF] h-[40rem] ">
+        <div className="container mx-auto px-4">
+          <div className="text-center">
+ 
+          <p className="pt-10 text-[#1D7EB9] font-semibold">SERVICES</p>
         <h1 className="text-2xl font-semibold">What we can do for you?</h1>
-        <div className="flex justify-center items-center mt-6 space-x-6">
+          </div>
+
+      
+
+        <div className="flex flex-wrap justify-center items-center mt-6 space-x-6">
           <ServicesCard />
           <ServicesCard />
           <ServicesCard />
@@ -114,6 +121,7 @@ const Home = () => {
           <ServicesCard />
           <ServicesCard />
         </div>
+      </div>
       </div>
       {/* School Card Section end*/}
 
