@@ -6,15 +6,31 @@ import Efm from '../assets/eFM1.svg';
 
 const HomeLogo = () => {
   return (
-    <section className="mt-10">
-      <div className="container mx-auto flex flex-wrap justify-center space-x-20 items-center">
-        <img src={appFutura} className='w-1/6 md:w-1/8 lg:w-1/12' alt="TCS Logo" />
-        <img src={Mad} className='w-1/6 md:w-1/8 lg:w-1/12' alt="Panasonic Logo" />
-        <img src={Inc} className='w-1/6 md:w-1/8 lg:w-1/12' alt="Hasfit Logo" />
-        <img src={GoodFirms} className='w-1/6 md:w-1/8 lg:w-1/12' alt="Foster Logo" />
-        <img src={Efm} className='w-1/6 md:w-1/8 lg:w-1/12' alt="Mediorbis Logo" />
+    <div className="mt-10">
+      <div className="flex flex-wrap justify-center items-center -mx-5 ">
+
+        <div className="w-1/3 md:w-1/5 lg:w-1/8 px-5 mb-5">
+          <img src={appFutura} className='w-36' alt="TCS Logo" />
+        </div>
+
+        <div className="w-1/3 md:w-1/5 lg:w-1/8 px-5 mb-5">
+          <img src={Mad} className='w-36' alt="Panasonic Logo" />
+        </div>
+
+        <div className="w-1/3 md:w-1/5 lg:w-1/8 px-5 mb-5">
+          <img src={Inc} className='w-36' alt="Hasfit Logo" />
+        </div>
+
+        <div className="w-1/3 md:w-1/5 lg:w-1/8 px-5 mb-5">
+          <img src={GoodFirms} className='w-36' alt="Foster Logo" />
+        </div>
+
+        <div className="w-1/3 md:w-1/5 lg:w-1/8 px-5 mb-5">
+          <img src={Efm} className='w-36' alt="Mediorbis Logo" />
+        </div>
+
       </div>
-    </section>
+    </div>
   );
 };
 
